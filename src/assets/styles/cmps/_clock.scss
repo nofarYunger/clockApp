@@ -1,0 +1,22 @@
+.clock-container {
+    background-color: rgba(207, 46, 46, 0.52);
+}
+
+.clock {
+    font-family: Inter-Bold;
+    font-size: 100px;
+    line-height: 70px;
+    margin-top: 1rem;
+    letter-spacing: -2.5px;
+    // @media (min-width: 768px) {
+    //     font-size: 175px;
+    //     line-height: 175px;
+    //     letter-spacing: -4.38px;
+
+    // }
+    @media (min-width: 1440px) {
+        font-size: 200px;
+        line-height: 200px;
+        letter-spacing: -5px;
+    }
+}

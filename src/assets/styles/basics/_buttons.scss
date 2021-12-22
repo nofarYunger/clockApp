@@ -1,0 +1,30 @@
+.info-btn {
+    background-color: #fff;
+    cursor: pointer;
+    font-family: Inter-Bold;
+    border-radius: 20%/50%;
+    width: fit-content;
+    color: #999999;
+    padding: 0.5rem 0.8rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.75rem;
+    user-select: none;
+
+    img {
+        width: 40px;
+    }
+
+    .arrow-svg {
+        transition: transform 0.5s;
+    }
+    &.info-open {
+        .arrow-svg {
+            transform: rotate(180deg);
+        }
+    }
+}
